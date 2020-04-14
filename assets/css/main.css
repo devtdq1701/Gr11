@@ -330,7 +330,7 @@ header {
     color: #000;
 }
 
-.auth-form__aside{
+.auth-form__help {
     display: flex;
     justify-content: flex-end;
 }
