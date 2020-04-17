@@ -348,16 +348,15 @@ header {
 
 .close {
     position: absolute;
-    right: 0px;
+    right: 3px;
     top: 0px;
     color: rgb(189, 189, 189);
-    font-size: 1.6875rem;
-    font-weight: bold;
+    font-size: 1.6rem;
 }
 
 .close:hover,
 .close:focus {
-    color: #000;
+    color: var(--main-color);
     cursor: pointer;
 }
 

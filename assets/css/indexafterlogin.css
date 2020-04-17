@@ -1,0 +1,9 @@
+
+.avt-img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 1.375rem;
+    border-radius: 50%;
+    height: 1.375rem;
+    margin-right: 5px;
+}

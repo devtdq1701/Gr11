@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/indexafterlogin.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.13.0-web/css/all.css">
     <link rel="icon" href="./assets/img/clipart4650821.png" type="img/icon">
@@ -60,8 +61,10 @@
                             <i class="header__navbar-icon far fa-question-circle"></i>
                             Trợ giúp
                         </a></li>
-                        <li class="header__navbar-item header__navbar-item--bold header__navbar-item--separate" onclick="document.getElementById('id01').style.display='block'">Đăng kí</li>
-                        <li class="header__navbar-item header__navbar-item--bold" onclick="document.getElementById('id02').style.display='block'">Đăng nhập</li>
+                        <li class="header__navbar-item header__navbar-item--bold navbar-user">
+                            <img class="avt-img" src="./assets/img/user-avt.png" alt="avt">
+                            <span class="user-name">quang170120</span>
+                        </li>
                     </ul>
                 </nav>
             <fo class="header-with-search">
@@ -1029,101 +1032,6 @@
             </div>
         </div>
         
-    <!-- Register modal -->
-    <div class="modal" id="id01">
-        <div class="modal__overlay">
-        </div>
-        <div class="modal__body">
-            <div class="modal__inner">
-                    <div onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">
-                        <i class="fas fa-times"></i>
-                    </div>
-                    <div class="auth-form__container">
-                        <div class="auth-form__header">
-                            <h3 class="auth-form__heading">Đăng ký</h3>
-                            <span class="auth-form__switch" onclick="document.getElementById('id01').style.display='none';document.getElementById('id02').style.display='block'">Đăng nhập</span>
-                        </div>
-                        <form action="" method="post">
-                            <div class="auth-form__form">
-                                <input type="tel" class="auth-form__input" placeholder="Email/Số điện thoại" required>
-                                <input type="password" name="" class="auth-form__input" placeholder="Mật khẩu" required>
-                                <input type="password" name="" class="auth-form__input" placeholder="Nhập lại mật khẩu" re>
-                            </div>
-                            <div class="auth-form__aside">
-                                <p class="auth-form__policy-text">Bằng việc đăng kí, bạn đã đồng ý với Shopee về 
-                                    <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> & 
-                                    <a href="" class="auth-form__policy-link" >Chính sách bảo mật</a>
-                                </p>
-                            </div>
-                            <div class="auth-form__control">
-                                <button class="auth-form__btn">ĐĂNG KÝ</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="auth-form__socials">
-                        <div class="facebook-social auth-form__socials-child">
-                            <a href="">
-                                <i class="social-icon fb-socials__icon fab fa-facebook-square"></i>
-                                Kết nối với Facebook
-                            </a>
-                        </div>
-                        <div class="google-social auth-form__socials-child">
-                            <a href="">
-                                <i class="social-icon gg-socials__icon socials-icon fab fa-google-plus-g"></i>
-                                Kết nối với Google
-                            </a>
-                        </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Login modal -->
-    <div class="modal" id="id02">
-        <div class="modal__overlay">
-        </div>
-        <div class="modal__body">
-            <div class="modal__inner">     
-                <div onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">
-                    <i class="fas fa-times"></i>
-                </div>      
-                    <div class="auth-form__container">
-                        <div class="auth-form__header">
-                            <h3 class="auth-form__heading">Đăng nhập</h3>
-                            <span class="auth-form__switch" onclick="document.getElementById('id02').style.display='none';document.getElementById('id01').style.display='block'">Đăng ký</span>
-                        </div>
-                        <form action="" method="post">
-                            <div class="auth-form__form">
-                                <input type="tel" class="auth-form__input" placeholder="Email/Số điện thoại" required>
-                                <input type="password" name="" class="auth-form__input" placeholder="Mật khẩu" required>
-                            </div>
-                            <di class="auth-form__aside">
-                                <p class="auth-form__help">
-                                    <a href="" class="auth-form__help-link">Quên mật khẩu</a>
-                                    <a href="" class="auth-form__help-link" >Cần trợ giúp ?</a>
-                                </p>
-                            </div>
-                            <div class="auth-form__control">
-                                <input type="submit" value="ĐĂNG NHẬP" class="auth-form__btn">
-                            </div>
-                        </form>
-                    <div class="auth-form__socials">
-                        <div class="facebook-social auth-form__socials-child">
-                            <a href="">
-                                <i class="social-icon fb-socials__icon fab fa-facebook-square"></i>
-                                Kết nối với Facebook
-                            </a>
-                        </div>
-                        <div class="google-social auth-form__socials-child">
-                            <a href="">
-                                <i class="social-icon gg-socials__icon socials-icon fab fa-google-plus-g"></i>
-                                Kết nối với Google
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 </body>
 </html>
