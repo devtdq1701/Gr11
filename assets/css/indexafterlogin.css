@@ -1,3 +1,6 @@
+.navbar-user {
+    position: relative;
+}
 
 .avt-img {
     object-fit: cover;
@@ -6,4 +9,46 @@
     border-radius: 50%;
     height: 1.375rem;
     margin-right: 5px;
+}
+
+.user-list {
+    position: relative;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 28px;
+    right: 0;
+    z-index: 999;
+    box-shadow: 0 0.0625rem 3.125rem 0 rgba(0,0,0,.2);
+    border-radius: 2px;
+    width: 9.375rem;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.09);
+}
+
+.user-list::before {
+    content: "";
+    position: absolute;
+    top: -20px; 
+    left: 0;
+    border-width: 10px 15px ;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    z-index: 999;
+}
+
+.user-item>a {
+    display: block;
+    line-height: 2.5rem;
+    width: 100%;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 0.9rem;
+    height: 2.5rem;
+    padding-left: .9375rem;
+    font-weight: 200;
+}
+
+.user-item>a:hover {
+    background-color: #fafafa;
+    color: #00bfa5;
 }
