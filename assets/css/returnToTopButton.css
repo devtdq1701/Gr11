@@ -1,0 +1,24 @@
+#returnToTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .3);
+    background-color: var(--main-color);
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#returnToTop i {
+    color: var(--white-color);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+#returnToTop i:hover {
+    top: -5px;
+}

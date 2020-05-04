@@ -138,6 +138,7 @@ html {
 ::-webkit-scrollbar-thumb {
     background: rgb(136, 135, 135); 
 }
+
   
   /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
