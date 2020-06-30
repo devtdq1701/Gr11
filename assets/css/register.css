@@ -1,0 +1,273 @@
+header {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.header__navbar {
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    position: relative;
+    width: 300px;
+}
+
+.logo__label {
+    position: absolute;
+    left: 150px;
+    bottom: 10px;
+    font-size: 24px;
+    color:  var(--black-color);
+    font-weight: 400;
+    padding-left: 7px;
+}
+
+.svg__logo {
+    height: 2.625rem;
+    margin-left: 1.125rem;
+}
+
+.header__help a{
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.container {
+    height: 633px;
+    width: 100%;
+    background-color: #EF3D19;
+}
+
+.inner__img {
+    margin-left: 50px;
+}
+
+.inner__img img {
+    object-fit: contain;
+}
+.grid {
+    position: relative;
+}
+
+.login__form {
+    height: auto;
+    width: 502px;
+    background-color: var(--white-color);
+    position: absolute;
+    top: 108px;
+    right: 70px;
+    padding: 30px 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
+}
+
+.form__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+
+.form__header p:first-of-type {
+    font-size: 20px;
+}
+
+.form__header p:nth-of-type(2) {
+    color: var(--main-color);
+    font-size: 14px;
+}
+
+.form__header a {
+    color: var(--main-color);
+}
+
+.form__header p>span {
+    color: #BDC3CE;
+    padding-right: 3px;
+}
+
+.form__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__main input {
+    padding: 10px 12px;
+    outline-color: rgba(0,0,0, 0.3);
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.form__main button {
+    font-size: 14px;
+    padding: 12px 0;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.pagination {
+    width: 100%;
+    height: 1px;
+    background-color: #DBDBDB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 54px;
+    margin-bottom: 40px;
+}
+
+.pagination>span {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #DBDBDB;
+}
+
+.socials__form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.socials__link {
+    display: flex;
+    background-color: #1877F2;
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.form__footer {
+    font-size: 12px;
+    line-height: 14.4px;
+    text-align: center;
+}
+
+.form__footer>a {
+    color: var(--main-color);
+}
+
+.socials__link>i {
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.footer {
+    padding-top: 50px;
+    background-color: #FBFBFB;
+}
+
+.footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.footer-title {
+    font-size: 0.8rem;
+    color: rgba(0,0,0,.54);
+    text-transform: uppercase;
+}
+
+.footer-list {
+    padding: 0;
+}
+
+.footer-item-link {
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    font-size: 0.75rem;
+}
+
+.footer-item-icon {
+    font-size: 1rem;
+    position: relative;
+    top: 2px;
+    width: 22px;
+    color: rgba(0,0,0,.54) !important;
+}
+
+.footer-item-link:hover {
+    color: var(--main-color);
+}
+
+.footer-download {
+    display: flex;
+    margin-top: 8px;
+}
+
+.download-qr {
+    width: 5.5rem;
+    border: 1px solid rgba(0,0,0,.4);
+    margin-right: 12px;
+}
+
+.app-download {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.app-download-icon {
+    width: 6rem;
+}
+
+.footer-bottom {
+    background-color: #F5F5F5;
+    min-height: 140px;
+}
+
+.footer-info {
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+.info-link-item {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0 10px;
+    color: rgba(0,0,0,.54);
+}
+
+.info-link-item:not(:last-of-type)::after{
+    content: "";
+    border-right: 1px solid rgba(0,0,0,.15);
+    position: relative;
+    right: -14px;
+}
+
+.address,
+.power-by {
+    color: rgba(0,0,0,.54);
+    font-size: 0.8rem;
+}
+
+.power-link {
+    text-decoration: none;
+}
+
+.power-by span {
+    color: red;
+    font-size: 1.2rem;
+}
+

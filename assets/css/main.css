@@ -302,7 +302,7 @@ header {
 .facebook-social>a {
     background-color: #4267B2;
     color: var(--white-color);
-    
+
 }
 
 .google-social>a {
@@ -451,7 +451,7 @@ select {
     position: absolute;
     overflow: hidden;
     height: 0px;
-    opacity: 0;  
+    opacity: 0;
     z-index: -1;
 }
 
@@ -478,7 +478,7 @@ select {
     border-bottom:1px solid #E0E0E0;
     background-color: #F5F5F5;
     padding: 10px 2%;
-    margin: 0px;  
+    margin: 0px;
     transition: all 275ms ease-in-out;
     display: block;
     cursor:pointer;
@@ -486,12 +486,12 @@ select {
 
 .cont_list_select_mate>li:last-child {
     border-radius: 3px;
-    border-bottom:0px; 
+    border-bottom:0px;
 
 }
 .cont_list_select_mate>li:hover {
     background-color: #EEEEEE;
-} 
+}
 
 .active {
     background-color: #EEEEEE;
@@ -1041,4 +1041,9 @@ select {
 
 .power-link {
     text-decoration: none;
+}
+
+.power-by span {
+    color: red;
+    font-size: 1.2rem;
 }

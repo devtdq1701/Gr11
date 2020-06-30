@@ -1,0 +1,178 @@
+.product-ratings__header {
+    font-size: 1.125rem;
+    color: rgba(0,0,0,.87);
+    margin-bottom: 1em;
+    text-transform: capitalize;
+}
+
+.product-ratings {
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.05);
+    border-radius: .125rem;
+    overflow: hidden;
+    background: #fff;
+    margin-top: .9375rem;
+    padding: 1.5625rem;
+}
+
+div {
+    display: block;
+}
+
+body, html {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    color: rgba(0,0,0,.8);
+    line-height: 1.2;
+}
+
+body {
+    font-size: .875rem;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.recommendation-by-carousel {
+    margin-top: 20px;
+}
+
+.shopee-header-section--simple {
+    padding-top: 1.25rem;
+}
+
+.shopee-header-section__header {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-bottom: 0.625rem;
+}
+
+.shopee-header-section__header__title {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    -webkit-box-flex: 1;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 1.25rem;
+    flex: 1 1 0%;
+    overflow: hidden;
+}
+
+.shopee-header-section--simple .shopee-header-section__header__title {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 500;
+}
+
+.shopee-header-section__header a {
+    color: rgb(238, 77, 45);
+    text-decoration: none !important;
+}
+
+.shopee-header-section__header-link {
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    text-decoration: none;
+}
+
+.shopee-header-section__header .shopee-button-no-outline, .shopee-header-section__header .shopee-button-outline--rounded {
+    text-transform: capitalize;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.shopee-header-section__header .shopee-button-no-outline {
+    color: rgb(238, 77, 45);
+}
+
+.shopee-header-section__header-link {
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    text-decoration: none;
+}
+
+.shopee-header-section__header .shopee-button-no-outline .icon-arrow-right, .shopee-header-section__header .shopee-button-outline--rounded .icon-arrow-right {
+    font-size: 0.625rem;
+}
+
+path[Attributes Style] {
+    d: path("m 2.5 11 c 0.1 0 0.2 0 0.3 -0.1 l 6 -5 c 0.1 -0.1 0.2 -0.3 0.2 -0.4 s -0.1 -0.3 -0.2 -0.4 l -6 -5 c -0.2 -0.2 -0.5 -0.1 -0.7 0.1 s -0.1 0.5 0.1 0.7 l 5.5 4.6 l -5.5 4.6 c -0.2 0.2 -0.2 0.5 -0.1 0.7 c 0.1 0.1 0.3 0.2 0.4 0.2 Z");
+}
+
+.recommendation-by-carousel .shopee-header-section__content {
+    position: relative;
+    margin: -0.4375rem;
+}
+
+.YDvNVv {
+    padding-top: 0.3125rem;
+}
+
+element.style {
+    padding: 0px;
+    width: 16.6667%;
+}
+
+.recommendation-by-carousel .image-carousel__item {
+    width: 16.6667%;
+    padding: 0px 5px !important;
+}
+
+
+element.style {
+    width: 400%;
+    transform: translate(0px, 0px);
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+element.style {
+    object-fit: contain;
+}
+
+element.style {
+    opacity: 1;
+    visibility: hidden;
+    transform: translateX(calc(-50% + 5px));
+}
+
+Style Attribute {
+    opacity: 1;
+    visibility: hidden;
+    transform: translateX(calc(-50% + 5px));
+}
+.thumbnail {
+    width: 390px;
+    height: 390px;
+	margin: auto;
+    overflow: hidden;
+	position: absolute;
+	top: 5px
+}
+
+.thumbnail img {
+    width: 200%; 
+    height: 200%;  
+    transition: 0.5s;
+}
+
+.thumbnail:hover img {
+    transform: scale(1.5);
+	transition: 0.5s;
+}

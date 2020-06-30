@@ -1,0 +1,92 @@
+.container {
+    padding-top: 1.2rem;
+    font-size: 0.9rem;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.user-sidebar {
+    width: 185px;
+}
+
+.user-header {
+    display: flex;
+    padding: 15px 0;
+    border-bottom:1px solid #efefef;
+}
+
+.user-avt {
+    width: 3.2rem;
+    height: 3.2rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.user-header-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-header-name {
+    font-weight: 600;
+}
+
+.change-profile {
+    color: #888;
+}
+
+.user-sidebar-link {
+    display: flex;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0.9rem 0 0 0;
+    cursor: pointer;
+}
+
+.user-sidebar-link:first-child {
+    margin-top: 1.5rem;
+}
+
+.user-sidebar-link:hover {
+    color: var(--main-color);
+}
+
+.icon-circle {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.8rem;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.profile-icon {
+    background-color: #FFC107;
+}
+
+.purchase-icon {
+    background-color: #44B5FF;
+}
+
+.notifications-icon {
+    background-color: #EE4D2D;
+}
+
+.voucher-wallet-icon {
+    background-color: #FFBBB0;
+}
+
+.coin-icon {
+    background-color: #FFAE04;
+}
+
+.sub-profile {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding-left: 2.4rem;
+}
