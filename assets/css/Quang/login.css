@@ -26,8 +26,7 @@
     flex: 1;
 }
 
-.show,
-.hide {
+.show {
     position: absolute;
     right: 15px;
     top: 12px;
