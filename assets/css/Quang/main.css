@@ -586,7 +586,7 @@ select {
 }
 
 .sidebar-height {
-    height: 91.7%;
+    height: 91.78%;
 }
 
 .menu-sidebar {
@@ -815,6 +815,8 @@ select {
 
 .product-item-price {
     font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .old-price {
