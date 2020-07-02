@@ -117,7 +117,7 @@
 .user-list::before {
     content: "";
     position: absolute;
-    top: -10px; 
+    top: -10px;
     right: 20px;
     border-bottom: 10px solid var(--white-color);
     border-right: 15px solid transparent;
@@ -231,4 +231,12 @@
 
 .cart-show-btn:hover {
     background-color: rgb(241, 101, 72);
+}
+
+.cart-product__product {
+    width: 315px;
+}
+
+.product__link {
+    display: flex;
 }
