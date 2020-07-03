@@ -67,3 +67,29 @@ for(let i = 0; i<  yearOption.length; i++) {
   inner(yearOption[i], yearText);
 }
 
+let update = document.getElementById('update');
+let modal = document.getElementById('modal');
+let overflow = document.getElementById('overflow');
+
+update.addEventListener('click', function(){
+  modal.style.display = "block";
+  overflow.classList.add("over-flow");
+  setTimeout(function(){
+    modal.style.display = "none";
+    overflow.classList.remove("over-flow");
+  }, 3000);
+})
+
+window.addEventListener('click', function(event){
+  if(event.target == modal) {
+    modal.style.display = "none";
+    overflow.classList.remove("over-flow");
+  }
+})
+if(modal.style.display = "block"){
+  setTimeout(function(){
+    modal.style.display = "none";
+    overflow.classList.remove("over-flow");
+  }, 3000);
+}
+

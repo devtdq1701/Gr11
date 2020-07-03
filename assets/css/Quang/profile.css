@@ -287,3 +287,18 @@
 .year-options {
     padding-left: 27px;
 }
+
+.over-flow {
+    overflow: hidden;
+}
+
+.modal__body > i {
+    font-size: 50px;
+    color: #66CC00;
+    padding-bottom: 20px;
+}
+
+.modal__body > p {
+    font-size: 20px;
+    color: var(--text-color);
+}
