@@ -10,3 +10,4 @@ $(document).ready(function(){
         }
     );
 });
+let cartBtn = document.getElementById('cartBtn');

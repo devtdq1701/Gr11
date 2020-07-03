@@ -90,3 +90,200 @@
     transition: max-height 0.2s ease-out;
     padding-left: 2.4rem;
 }
+
+.grid__row {
+    display: flex;
+}
+
+.input-file {
+    height: 0.1px;
+    width: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.input-file + label {
+    font-size: 16px;
+    color: var(--text-color);
+    display: inline-block;
+    background-color: var(--white-color);
+    height: 40px;
+    width: 104px;
+    border: 1px solid rgba(0,0,0,.09);
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.03);
+    border-radius: 2px;
+}
+
+.input-file + label:hover,
+.input-file:focus + label:hover{
+    background: rgba(0,0,0,.02);
+}
+
+.upload-img>img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 50%;
+}
+
+.user-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.1);
+    padding: 18px 30px 80px 30px;
+    margin-left: 30px;
+}
+.user-content-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.user-content__left {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.avt-uploader {
+    width: 284px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-left: 1px solid #ccc;
+}
+
+.upload-text {
+    color: var(--text-color);
+}
+
+.user-content-header {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-title {
+    font-size: 18px;
+    line-height: 24px;
+    color: #333;
+}
+
+.user-title + span {
+    color: #555;
+    font-size: 14px;
+}
+
+.user-content-item {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.birth-detail {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.content-item-label {
+    width: 100px;
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+    margin-right: 20px;
+}
+
+.name-input > input {
+    flex: 1;
+    padding: 10px 0 10px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.birth-item {
+    width: 148px;
+    padding: 5px 0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.birth-item:hover {
+    border: 1px solid var(--main-color);
+}
+
+.gender-group {
+    display: flex;
+}
+
+.gender-group input {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.gender-group>label {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.change-btn {
+    margin-left: 120px;
+}
+
+.save-submit {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+.save-submit:hover {
+    filter: brightness(110%);
+}
+
+.options {
+    background-color: var(--white-color);
+    width: 147px;
+    height: 100px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 37.5px;
+    left: -1px;
+    z-index: 999;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.09);
+    color: var(--text-color);
+    display: none;
+}
+
+.day-option:hover,
+.month-option:hover,
+.year-option:hover {
+    color: var(--main-color);
+}
+
+.day-options {
+    padding-left: 30px;
+}
+
+.month-options {
+    padding-left: 20px;
+}
+
+.year-options {
+    padding-left: 27px;
+}

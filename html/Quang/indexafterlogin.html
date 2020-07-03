@@ -139,7 +139,7 @@
                             <img class="avt-img" src="/assets/img/user-avt.png" alt="avt">
                             <span class="user-name">quang170120</span>
                             <ul class="user-list">
-                                <li class="user-item"><a href="">Tài khoản của tôi</a></li>
+                                <li class="user-item"><a href="/html/Quang/profile.html">Tài khoản của tôi</a></li>
                                 <li class="user-item"><a href="">Đơn mua</a></li>
                                 <li class="user-item"><a href="./index.html">Đăng xuất</a></li>
                             </ul>
@@ -158,9 +158,9 @@
                         </svg>
                     </a>
                 </div>
-                <form class="header-search-box" method="POST">
+                <form class="header-search-box">
                     <div class="search-input-wrap">
-                        <input type="text" name="" id="" class="header-search__input" placeholder="Tìm sản phẩm, thương hiệu, ... ">
+                        <input type="text" name="" id="searchTxt" class="header-search__input" placeholder="Tìm sản phẩm, thương hiệu, ... ">
                         <div class="search-history"><span class="history-label">Lịch sử tìm kiếm</span></div>
                     </div>
                     <!-- <div class="select_mate" data-mate-select="active" >
@@ -179,217 +179,219 @@
                             <ul class="cont_select_int">  </ul>
                         </div>
                     </divfo> -->
-                    <button class="header__search-btn">
+                    <button class="header__search-btn" id="searchBtn">
                         <i class="fas fa-search"></i>
                     </button>
                 </form>
 
                 <!-- Cart -->
                 <div class="shop-cart">
-                    <div class="shop-cart-wrap">
-                        <i class="shop-cart_icon fas fa-shopping-cart" onclick="document.getElementById('id02').style.display='block'"></i>
-                    <!-- <div class="cart-list cart-none-list">
-                        <img class="cart-img" src="/assets/img/no-cart.png" alt="">
-                        <span class="cart-msg">Chưa Có Sản Phẩm</span>-->
-                        <div class="shop-cart-number">3</div>
-                        <div class="cart-list cart-list-grow">
-                            <div class="header-cart-list">
-                                Sản phẩm mới thêm
-                            </div>
-                            <ul class="cart-list-info">
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
-                                                </div>
+                    <a href="cart.html">
+                        <div class="shop-cart-wrap">
+                            <i class="shop-cart_icon fas fa-shopping-cart"></i>
+                        <!-- <div class="cart-list cart-none-list">
+                            <img class="cart-img" src="/assets/img/no-cart.png" alt="">
+                            <span class="cart-msg">Chưa Có Sản Phẩm</span>-->
+                            <div class="shop-cart-number">3</div>
+                            <div class="cart-list cart-list-grow">
+                                <div class="header-cart-list">
+                                    Sản phẩm mới thêm
+                                </div>
+                                <ul class="cart-list-info">
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="cart-item">
-                                    <a href="" class="cart-item-link">
-                                        <div class="cart-item-img">
-                                            <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
-                                        </div>
-                                        <div class="cart-item-main">
-                                            <div class="cart-item-describe">
-                                                <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
-                                                <div class="cart-item-center">
-                                                    <div class="cart-item-price">580.000đ</div>
-                                                    <div class="cart-item-quantum">x3</div>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
                                                 </div>
+                                                <div class="cart-item-delete">Xoá</div>
                                             </div>
-                                            <div class="cart-item-delete">Xoá</div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="cart-show">
-                                <button class="btn btn-focus cart-show-btn">Xem Giỏ Hàng</button>
+                                        </a>
+                                    </li>
+                                    <li class="cart-item">
+                                        <a href="" class="cart-item-link">
+                                            <div class="cart-item-img">
+                                                <img src="/assets/img/goldtech-k25-rainbow.png" alt="">
+                                            </div>
+                                            <div class="cart-item-main">
+                                                <div class="cart-item-describe">
+                                                    <div class="cart-item-name">BÀN PHÍM CƠ GOLDTECH K25 LED RAINBOW</div>
+                                                    <div class="cart-item-center">
+                                                        <div class="cart-item-price">580.000đ</div>
+                                                        <div class="cart-item-quantum">x3</div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item-delete">Xoá</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="cart-show">
+                                    <button class="btn btn-focus cart-show-btn" id="cartBtn">Xem Giỏ Hàng</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </header>
@@ -1304,8 +1306,8 @@
         </button>
         <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
         <script src="/assets/JS/Quang/preloader.js"></script>
-        <script src="/assets/JS/Quang/header__search-select.js"></script>
         <script src="/assets/JS/Quang/returnToTopButton.js"></script>
         <script src="/assets/JS/Quang/hover.js"></script>
+        <script src="/assets/JS/Quang/search.js"></script>
 </body>
 </html>
