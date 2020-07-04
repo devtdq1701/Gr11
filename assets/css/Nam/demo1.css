@@ -1039,12 +1039,6 @@ a {
     background-color: transparent;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
 svg:not(:root) {
     overflow: hidden;
 }
