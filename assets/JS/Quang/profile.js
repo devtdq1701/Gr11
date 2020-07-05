@@ -86,10 +86,5 @@ window.addEventListener('click', function(event){
     overflow.classList.remove("over-flow");
   }
 })
-if(modal.style.display = "block"){
-  setTimeout(function(){
-    modal.style.display = "none";
-    overflow.classList.remove("over-flow");
-  }, 3000);
-}
+
 

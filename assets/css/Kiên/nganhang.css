@@ -1,0 +1,38 @@
+._2uaMPO {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1.25rem 0 3.125rem;
+}
+
+.container._2uaMPO {
+}
+
+.container {
+    width: 1200px;
+}
+
+.container, .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    display: block;
+}
+
+body, html {
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;
+    color: rgba(0,0,0,.8);
+    line-height: 1.2;
+}
+body {
+    font-size: .875rem;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}

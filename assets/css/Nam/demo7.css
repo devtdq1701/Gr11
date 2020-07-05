@@ -2190,11 +2190,6 @@ div {
     display: block;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 svg:not(:root) {
     overflow: hidden;
@@ -2256,14 +2251,6 @@ body {
     margin: 0;
 }
 
-svg[Attributes Style] {
-    x: 0;
-    y: 0;
-}
-
-html[Attributes Style] {
-    -webkit-locale: "vi";
-}
 
 html {
     display: block;
